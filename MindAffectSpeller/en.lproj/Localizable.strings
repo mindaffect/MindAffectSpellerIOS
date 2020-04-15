@@ -1,0 +1,46 @@
+
+"DefaultSentence1" = "I want to say something.";
+
+"defaultSentence2" = "I would like a drink.";
+
+"defaultSentence3" = "I am not sitting comfortably.";
+
+"homescreen.title" = "Start screen";
+
+"no" = "No";
+
+"sentence" = "Sentence";
+
+"settings-screen.title" = "Settings";
+
+"settings.pages.brain-presses.title" = "Brain presses";
+
+"settings.pages.keyboard" = "Keyboard";
+
+"settings.pages.sound" = "Sound";
+
+"settings.pages.start-screen" = "Start screen";
+
+"settings.pages.startscreen.subtitle" = "Choose between variants of the Start Screen. Edit sentences 1-3";
+
+"settings.pages.startscreen1.title" = "Start screen (1)";
+
+"settings.pages.startscreen2.subtitle" = "Edit the Start Screen sentences 4-9.";
+
+"settings.pages.startscreen2.title" = "Start screen (2)";
+
+"sleep-screen.explanation.if-alarm-off" = "Double tap to switch to the Alarm button.";
+
+"sleep-screen.explanation.if-alarm-on" = "Double tap again to go back to the Start screen.";
+
+"start-screen.sentences.variant" = "9 sentences instead of 3 + Yes and No";
+
+"Temp-test" = "Temporary test";
+
+"test" = "bla e";
+
+"yes" = "Yes";
+
+"yes-no.no" = "No";
+
+"yes-no.yes" = "Yes";

@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4820434F21DF8E7700CC2B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820434E21DF8E7700CC2B10 /* AppDelegate.swift */; };
+		4820435121DF8E7800CC2B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4820435021DF8E7800CC2B10 /* Assets.xcassets */; };
+		4820435421DF8E7800CC2B10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4820435221DF8E7800CC2B10 /* MainMenu.xib */; };
+		4820435F21DF8E9700CC2B10 /* celex_instructions_modified.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4820435E21DF8E9700CC2B10 /* celex_instructions_modified.txt */; };
+		4820436421DF952C00CC2B10 /* Celex Dutch wordforms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4820436321DF952C00CC2B10 /* Celex Dutch wordforms.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4820434B21DF8E7700CC2B10 /* PrepareDataWordCompletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepareDataWordCompletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820434E21DF8E7700CC2B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4820435021DF8E7800CC2B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4820435321DF8E7800CC2B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4820435521DF8E7800CC2B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820435621DF8E7800CC2B10 /* PrepareDataWordCompletion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrepareDataWordCompletion.entitlements; sourceTree = "<group>"; };
+		4820435E21DF8E9700CC2B10 /* celex_instructions_modified.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = celex_instructions_modified.txt; sourceTree = "<group>"; };
+		4820436321DF952C00CC2B10 /* Celex Dutch wordforms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Celex Dutch wordforms.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4820434821DF8E7600CC2B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4820434221DF8E7600CC2B10 = {
+			isa = PBXGroup;
+			children = (
+				4820434D21DF8E7700CC2B10 /* PrepareDataWordCompletion */,
+				4820434C21DF8E7700CC2B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4820434C21DF8E7700CC2B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4820434B21DF8E7700CC2B10 /* PrepareDataWordCompletion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4820434D21DF8E7700CC2B10 /* PrepareDataWordCompletion */ = {
+			isa = PBXGroup;
+			children = (
+				4820436321DF952C00CC2B10 /* Celex Dutch wordforms.txt */,
+				4820435E21DF8E9700CC2B10 /* celex_instructions_modified.txt */,
+				4820434E21DF8E7700CC2B10 /* AppDelegate.swift */,
+				4820435021DF8E7800CC2B10 /* Assets.xcassets */,
+				4820435221DF8E7800CC2B10 /* MainMenu.xib */,
+				4820435521DF8E7800CC2B10 /* Info.plist */,
+				4820435621DF8E7800CC2B10 /* PrepareDataWordCompletion.entitlements */,
+			);
+			path = PrepareDataWordCompletion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4820434A21DF8E7600CC2B10 /* PrepareDataWordCompletion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820435921DF8E7800CC2B10 /* Build configuration list for PBXNativeTarget "PrepareDataWordCompletion" */;
+			buildPhases = (
+				4820434721DF8E7600CC2B10 /* Sources */,
+				4820434821DF8E7600CC2B10 /* Frameworks */,
+				4820434921DF8E7600CC2B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrepareDataWordCompletion;
+			productName = PrepareDataWordCompletion;
+			productReference = 4820434B21DF8E7700CC2B10 /* PrepareDataWordCompletion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4820434321DF8E7600CC2B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = GameTogether;
+				TargetAttributes = {
+					4820434A21DF8E7600CC2B10 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4820434621DF8E7600CC2B10 /* Build configuration list for PBXProject "PrepareDataWordCompletion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4820434221DF8E7600CC2B10;
+			productRefGroup = 4820434C21DF8E7700CC2B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4820434A21DF8E7600CC2B10 /* PrepareDataWordCompletion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4820434921DF8E7600CC2B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820435121DF8E7800CC2B10 /* Assets.xcassets in Resources */,
+				4820435421DF8E7800CC2B10 /* MainMenu.xib in Resources */,
+				4820435F21DF8E9700CC2B10 /* celex_instructions_modified.txt in Resources */,
+				4820436421DF952C00CC2B10 /* Celex Dutch wordforms.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4820434721DF8E7600CC2B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820434F21DF8E7700CC2B10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4820435221DF8E7800CC2B10 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4820435321DF8E7800CC2B10 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4820435721DF8E7800CC2B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4820435821DF8E7800CC2B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4820435A21DF8E7800CC2B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrepareDataWordCompletion/PrepareDataWordCompletion.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LMJQ4D6886;
+				INFOPLIST_FILE = PrepareDataWordCompletion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.gametogether.PrepareDataWordCompletion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4820435B21DF8E7800CC2B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrepareDataWordCompletion/PrepareDataWordCompletion.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LMJQ4D6886;
+				INFOPLIST_FILE = PrepareDataWordCompletion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.gametogether.PrepareDataWordCompletion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4820434621DF8E7600CC2B10 /* Build configuration list for PBXProject "PrepareDataWordCompletion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820435721DF8E7800CC2B10 /* Debug */,
+				4820435821DF8E7800CC2B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4820435921DF8E7800CC2B10 /* Build configuration list for PBXNativeTarget "PrepareDataWordCompletion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820435A21DF8E7800CC2B10 /* Debug */,
+				4820435B21DF8E7800CC2B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4820434321DF8E7600CC2B10 /* Project object */;
+}

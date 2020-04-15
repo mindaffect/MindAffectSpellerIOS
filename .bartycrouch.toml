@@ -1,0 +1,27 @@
+[update]
+tasks = ["interfaces", "transform", "normalize"]
+
+[update.interfaces]
+path = "."
+defaultToBase = false
+ignoreEmptyStrings = false
+unstripped = false
+
+[update.transform]
+codePath = "."
+localizablePath = "."
+transformer = "swiftgenStructured"
+supportedLanguageEnumPath = "."
+typeName = "BartyCrouch"
+translateMethodName = "translate"
+
+[update.normalize]
+path = "."
+sourceLocale = "en"
+harmonizeWithSource = true
+sortByKeys = true
+
+[lint]
+path = "."
+duplicateKeys = true
+emptyValues = true

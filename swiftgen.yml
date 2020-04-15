@@ -1,0 +1,5 @@
+strings:
+  inputs: MindAffectSpeller/en.lproj/Localizable.strings
+  outputs:
+  - templateName: structured-swift4
+    output: MindAffectSpeller/Strings.swift
