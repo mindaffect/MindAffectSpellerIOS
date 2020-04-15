@@ -17,6 +17,8 @@
 		482D4CFB1DBF612800EC1378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482D4CFA1DBF612800EC1378 /* Assets.xcassets */; };
 		482D4CFE1DBF612800EC1378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482D4CFC1DBF612800EC1378 /* LaunchScreen.storyboard */; };
 		487260231FC720E300D44F49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487260211FC720E300D44F49 /* SettingsViewController.swift */; };
+		4877F4CE2447A5F700598EB9 /* NoiseTagging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4877F4CD2447A5F700598EB9 /* NoiseTagging.xcframework */; };
+		4877F4CF2447A5F700598EB9 /* NoiseTagging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4877F4CD2447A5F700598EB9 /* NoiseTagging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		48A1C5F1242216E900605158 /* htmlInfo_english.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A1C5EF242216E900605158 /* htmlInfo_english.html */; };
 		48A1C5F2242216E900605158 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1C5F0242216E900605158 /* InfoViewController.swift */; };
 		48A6A8032424B19D00F8C7C2 /* htmlInfo_dutch.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */; };
@@ -31,8 +33,6 @@
 		48E99BA822269E050089B549 /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E99BA722269E050089B549 /* BartyCrouch.swift */; };
 		48E99BAD22269EB50089B549 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E99BAC22269EB50089B549 /* Strings.swift */; };
 		48E99BB022269F1F0089B549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E99BB222269F1F0089B549 /* Localizable.strings */; };
-		48F3DA102445D984006148F7 /* NoiseTagging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F3DA0F2445D984006148F7 /* NoiseTagging.xcframework */; };
-		48F3DA112445D984006148F7 /* NoiseTagging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48F3DA0F2445D984006148F7 /* NoiseTagging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48F3DA112445D984006148F7 /* NoiseTagging.xcframework in Embed Frameworks */,
+				4877F4CF2447A5F700598EB9 /* NoiseTagging.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +63,7 @@
 		482D4CFF1DBF612800EC1378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4867A1D82443A21F0011A288 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		487260211FC720E300D44F49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4877F4CD2447A5F700598EB9 /* NoiseTagging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoiseTagging.xcframework; sourceTree = "<group>"; };
 		48A1C5EF242216E900605158 /* htmlInfo_english.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_english.html; sourceTree = "<group>"; };
 		48A1C5F0242216E900605158 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_dutch.html; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		48E99BB322269F7B0089B549 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		48E99BB422269FD50089B549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		48F3DA0E2445B0B4006148F7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		48F3DA0F2445D984006148F7 /* NoiseTagging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NoiseTagging.xcframework; path = ../NoiseTagging/NoiseTagging.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F3DA102445D984006148F7 /* NoiseTagging.xcframework in Frameworks */,
+				4877F4CE2447A5F700598EB9 /* NoiseTagging.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 		11C3A5619A26A5464A8553C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48F3DA0F2445D984006148F7 /* NoiseTagging.xcframework */,
+				4877F4CD2447A5F700598EB9 /* NoiseTagging.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
