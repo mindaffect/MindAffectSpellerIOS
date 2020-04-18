@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,8 +20,8 @@
 		48A1C5F1242216E900605158 /* htmlInfo_english.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A1C5EF242216E900605158 /* htmlInfo_english.html */; };
 		48A1C5F2242216E900605158 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1C5F0242216E900605158 /* InfoViewController.swift */; };
 		48A6A8032424B19D00F8C7C2 /* htmlInfo_dutch.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */; };
-		48A882DE244AF70500A7B83A /* NoiseTagging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A882DB244AF70100A7B83A /* NoiseTagging.framework */; };
-		48A882DF244AF70500A7B83A /* NoiseTagging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48A882DB244AF70100A7B83A /* NoiseTagging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48A882FF244B09E900A7B83A /* NoiseTagging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A882FE244B09E900A7B83A /* NoiseTagging.xcframework */; };
+		48A88300244B09E900A7B83A /* NoiseTagging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48A882FE244B09E900A7B83A /* NoiseTagging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		48AFC45321181A650092D54A /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFC45121181A650092D54A /* SleepViewController.swift */; };
 		48AFC45421181A650092D54A /* SleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC45221181A650092D54A /* SleepViewController.xib */; };
 		48AFC47F211881200092D54A /* AlarmSound10s.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC47E211881200092D54A /* AlarmSound10s.wav */; };
@@ -35,23 +35,6 @@
 		48E99BB022269F1F0089B549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E99BB222269F1F0089B549 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		48A882DA244AF70100A7B83A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48A882D5244AF70100A7B83A /* NoiseTagging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 482845C12005203D00BC83F1;
-			remoteInfo = NoiseTagging;
-		};
-		48A882DC244AF70100A7B83A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48A882D5244AF70100A7B83A /* NoiseTagging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 482845CA2005203E00BC83F1;
-			remoteInfo = NoiseTaggingTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		48314C0C2444A0D900A43E4C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48A882DF244AF70500A7B83A /* NoiseTagging.framework in Embed Frameworks */,
+				48A88300244B09E900A7B83A /* NoiseTagging.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +66,7 @@
 		48A1C5EF242216E900605158 /* htmlInfo_english.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_english.html; sourceTree = "<group>"; };
 		48A1C5F0242216E900605158 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_dutch.html; sourceTree = "<group>"; };
-		48A882D5244AF70100A7B83A /* NoiseTagging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoiseTagging.xcodeproj; path = "../../../EigenBedrijf/MindAffect/Projects Xcode/NoiseTagging/NoiseTagging.xcodeproj"; sourceTree = "<group>"; };
+		48A882FE244B09E900A7B83A /* NoiseTagging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoiseTagging.xcframework; sourceTree = "<group>"; };
 		48AFC45121181A650092D54A /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
 		48AFC45221181A650092D54A /* SleepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepViewController.xib; sourceTree = "<group>"; };
 		48AFC47E211881200092D54A /* AlarmSound10s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AlarmSound10s.wav; sourceTree = "<group>"; };
@@ -107,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A882DE244AF70500A7B83A /* NoiseTagging.framework in Frameworks */,
+				48A882FF244B09E900A7B83A /* NoiseTagging.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +100,7 @@
 		11C3A5619A26A5464A8553C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48A882FE244B09E900A7B83A /* NoiseTagging.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,7 +125,6 @@
 		482D4CE71DBF612800EC1378 = {
 			isa = PBXGroup;
 			children = (
-				48A882D5244AF70100A7B83A /* NoiseTagging.xcodeproj */,
 				48B40618223A869E00BBF043 /* .gitignore */,
 				4867A1D82443A21F0011A288 /* README.md */,
 				48F3DA0E2445B0B4006148F7 /* LICENSE.md */,
@@ -221,15 +204,6 @@
 				48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */,
 			);
 			name = Info;
-			sourceTree = "<group>";
-		};
-		48A882D6244AF70100A7B83A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				48A882DB244AF70100A7B83A /* NoiseTagging.framework */,
-				48A882DD244AF70100A7B83A /* NoiseTaggingTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		48AFC44F21181A0B0092D54A /* Sleep */ = {
@@ -342,35 +316,12 @@
 			mainGroup = 482D4CE71DBF612800EC1378;
 			productRefGroup = 482D4CF11DBF612800EC1378 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 48A882D6244AF70100A7B83A /* Products */;
-					ProjectRef = 48A882D5244AF70100A7B83A /* NoiseTagging.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				482D4CEF1DBF612800EC1378 /* Speller */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		48A882DB244AF70100A7B83A /* NoiseTagging.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = NoiseTagging.framework;
-			remoteRef = 48A882DA244AF70100A7B83A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		48A882DD244AF70100A7B83A /* NoiseTaggingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NoiseTaggingTests.xctest;
-			remoteRef = 48A882DC244AF70100A7B83A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		482D4CEE1DBF612800EC1378 /* Resources */ = {
@@ -410,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which bartycrouch > /dev/null; then\n    bartycrouch update -x\n    bartycrouch lint -x\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi\n\n";
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\nif which bartycrouch > /dev/null; then\n    bartycrouch update -x\n    bartycrouch lint -x\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi\nfi\n";
 		};
 		48E99BA522269D8B0089B549 /* Run Script swiftgen */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -428,7 +379,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftgen > /dev/null; then\n    swiftgen\nelse\n    echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\nif which swiftgen > /dev/null; then\n    swiftgen\nelse\n    echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -590,7 +541,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -605,7 +557,7 @@
 				CODEVERSION_inProductNameAndBundleIdentifier = 4.3.0;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6.4;
+				CURRENT_PROJECT_VERSION = 6.4.1;
 				DEVELOPMENT_TEAM = 5UPDJHJ6D7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -615,8 +567,11 @@
 				);
 				INFOPLIST_FILE = MindAffectSpeller/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -644,7 +599,7 @@
 				CODEVERSION_inProductNameAndBundleIdentifier = 4.3.0;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6.4;
+				CURRENT_PROJECT_VERSION = 6.4.1;
 				DEVELOPMENT_TEAM = 5UPDJHJ6D7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -654,8 +609,11 @@
 				);
 				INFOPLIST_FILE = MindAffectSpeller/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
