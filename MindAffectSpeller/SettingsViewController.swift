@@ -97,20 +97,4 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			return true
 		}
 	}
-	
-	
-	// MARK: - NoiseTagDelegate
-	
-	func startNoiseTagControlOn(noiseTaggingView: UIView) {
-		// Find the page where noise tagging should be applied:
-		for page in self.pagesSettings {
-			if page.view == noiseTaggingView {
-				// Let the page's delegate add the noisetagging actions:
-				page.setNoiseTagActionsForSettingViews()
-
-				// No need to look further:
-				return
-			}
-		}
-	}
 }

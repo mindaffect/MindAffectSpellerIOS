@@ -191,6 +191,7 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 		self.brainButton.frame = frameBrainButton
 		homeScreenPage.rightViewInTitleBar = brainButton
 		self.navigator = NavigatorTreeOfPages(presentingView: self.view, initialPage: homeScreenPage)
+		self.navigator.present()
 		
 		// Prepare defaultViewSentences and altViewSentences:
 		self.defaultViewSentences.backgroundColor = nil
@@ -311,10 +312,10 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 	*/
     func startNoiseTagControlOn(noiseTaggingView: UIView) {
         // Associate actions with views:
-		if noiseTaggingView == view {
+		if noiseTaggingView == self.view {
 			// Let our navigationHelper take care of this:
 			self.navigator?.startNoiseTagControl()
-		} else if noiseTaggingView == viewForHomeScreenPage {
+		} else if noiseTaggingView == self.viewForHomeScreenPage {
 			
 			self.sleepButton.noiseTagging.addAction(timing: 1) {
 				// Open the Sleep screen:
