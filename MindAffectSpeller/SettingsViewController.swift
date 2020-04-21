@@ -27,10 +27,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 		
 		
 		// To prepare our page hierarchy, first we create five Settings pages (Sound, Keyboard, etc.) and then we combine them in one List page:
-				
-		// The frame used for all Settings pages:
-		let frameSettingsPages = CGRect(x: 0, y: 0, width: 1024 * ScalingUI.scaleWRTRegularIPadScreen, height: 640 * ScalingUI.scaleWRTRegularIPadScreen) // todo: calculate or use constants
-		
+						
 		// Page 1. Speech and sound:
 		let settingTitlesSpeechAndSound = [
 			NoiseTagSettingTitles.voice,
@@ -40,7 +37,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			NoiseTagSettingTitles.enableOtherSounds
 		]
 		let settingsSpeechAndSound = NoiseTagging.settings.settingsWith(titles: settingTitlesSpeechAndSound)
-		let pageSpeechAndSound = Page(title: L10n.Settings.Pages.sound, settings: settingsSpeechAndSound, frame: frameSettingsPages, delegate: self)
+		let pageSpeechAndSound = Page(title: L10n.Settings.Pages.sound, settings: settingsSpeechAndSound, delegate: self)
 		self.pagesSettings.append(pageSpeechAndSound)
 		
 		// Page 2. Keyboard:
@@ -50,7 +47,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			NoiseTagKeyboardSettingTitles.languageCodeWordCompletion
 		]
 		let settingsKeyboard = NoiseTagKeyboardViewController.settings.settingsWith(titles: settingTitlesKeyboard)
-		let pageKeyboard = Page(title: L10n.Settings.Pages.keyboard, settings: settingsKeyboard, frame: frameSettingsPages, delegate: self)
+		let pageKeyboard = Page(title: L10n.Settings.Pages.keyboard, settings: settingsKeyboard, delegate: self)
 		self.pagesSettings.append(pageKeyboard)
 		
 		// Page 3. Home screen (1):
@@ -61,7 +58,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			NovaSettingTitles.homeScreenSentence3
 		]
 		let settingsHomeScreen1 = settingsSpellerApp.settingsWith(titles: settingTitlesHomeScreen1)
-		let pageHomeScreen1 = Page(title: L10n.Settings.Pages.Startscreen1.title, settings: settingsHomeScreen1, frame: frameSettingsPages, delegate: self)
+		let pageHomeScreen1 = Page(title: L10n.Settings.Pages.Startscreen1.title, settings: settingsHomeScreen1, delegate: self)
 		pageHomeScreen1.subTitle = L10n.Settings.Pages.Startscreen.subtitle
 		self.pagesSettings.append(pageHomeScreen1)
 		
@@ -75,7 +72,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			NovaSettingTitles.homeScreenSentence9
 		]
 		let settingsHomeScreen2 = settingsSpellerApp.settingsWith(titles: settingTitlesHomeScreen2)
-		let pageHomeScreen2 = Page(title: L10n.Settings.Pages.Startscreen2.title, settings: settingsHomeScreen2, frame: frameSettingsPages, delegate: self) // L10n.Settings.Pages.startscreen2
+		let pageHomeScreen2 = Page(title: L10n.Settings.Pages.Startscreen2.title, settings: settingsHomeScreen2, delegate: self) // L10n.Settings.Pages.startscreen2
 		pageHomeScreen2.subTitle = L10n.Settings.Pages.Startscreen2.subtitle
 		self.pagesSettings.append(pageHomeScreen2)
 		
@@ -85,7 +82,7 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 			NoiseTagSettingTitles.certaintyRequiredForPress
 		]
 		let settingsBrainPresses = NoiseTagging.settings.settingsWith(titles: settingTitlesBrainPresses)
-		let pageBrainPresses = Page(title: L10n.Settings.Pages.BrainPresses.title, settings: settingsBrainPresses, frame: frameSettingsPages, delegate: self)
+		let pageBrainPresses = Page(title: L10n.Settings.Pages.BrainPresses.title, settings: settingsBrainPresses, delegate: self)
 		self.pagesSettings.append(pageBrainPresses)
 		
 		// Combine the five Settings Pages into one List Page:
@@ -96,5 +93,12 @@ class SettingsViewController: UIViewController, NoiseTagDelegate {
 		get {
 			return true
 		}
+	}
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
 	}
 }

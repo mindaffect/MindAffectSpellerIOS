@@ -83,6 +83,13 @@ class InfoViewController: UIViewController, WKNavigationDelegate {
 		// Turn noise tagging trials back on if necessary:
 		NoiseTagging.trialsAreRunning = self.trialsWereRunning
 	}
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
+	}
 		
 	
 	// MARK: - WKNavigationDelegate

@@ -137,9 +137,9 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
         super.viewDidLoad()
 				
 		// Our UI has been designed specifically for 12.9 inch iPads. If necessary scale to the current screen size:
-		ScalingUI.scaleCompletelyFrom12inch9ToCurrentIPad(view: view)
-		ScalingUI.scaleCompletelyFrom12inch9ToCurrentIPad(view: viewForHomeScreenPage)
-		ScalingUI.scaleCompletelyFrom12inch9ToCurrentIPad(view: altViewSentences)
+		ScalingUI.From12inch9.scale(view: view)
+		ScalingUI.From12inch9.scale(view: viewForHomeScreenPage)
+		ScalingUI.From12inch9.scale(view: altViewSentences)
 		
 		// Make some views transparent so NoiseTagging's default background color is used:
 		self.viewForHomeScreenPage.backgroundColor = nil
@@ -151,7 +151,7 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 		// Prepare Home Screen UI:
 				
 		// Bars:
-		self.viewBottomBar.layer.cornerRadius = 15 * ScalingUI.scaleWRTRegularIPadScreen
+		self.viewBottomBar.layer.cornerRadius = 15 * ScalingUI.FromRegularIPad.scaleR
 		
 		// Set button titles/icons:
 		self.yesButton.title = L10n.yes
@@ -184,9 +184,9 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 		
 		// Prepare our page hierarchy and show the first page using a navigationHelper:
 		let homeScreenPage = Page(title: L10n.Homescreen.title, view: viewForHomeScreenPage, viewContainsFakeNavigationBar: true, delegate: self)
-		self.sleepButton.frame = NavigatorTreeOfPages.frameBackButton
+		self.sleepButton.frame = Layout.Navigator.NavigationBar.LeftButton.frame
 		homeScreenPage.leftViewInTitleBar = sleepButton
-		var frameBrainButton = NavigatorTreeOfPages.frameBackButton
+		var frameBrainButton = Layout.Navigator.NavigationBar.LeftButton.frame
 		frameBrainButton.origin.x = 0.5 * view.frame.width - 80 - frameBrainButton.width // todo: this is ugly, because I assume that when navigationHelper adds this view, it will do so in a view that is half the width of our own view
 		self.brainButton.frame = frameBrainButton
 		homeScreenPage.rightViewInTitleBar = brainButton
@@ -301,6 +301,13 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
             return true
         }
     }
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
+	}
     
 	
     

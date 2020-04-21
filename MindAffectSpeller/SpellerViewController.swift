@@ -68,6 +68,13 @@ class SpellerViewController: UIViewController, SubVC, NoiseTaggingKeyboardDelega
 		// Push keyboardVC on the NoiseTagging stack:
 		NoiseTagging.push(view: self.keyboardVC.view, forNoiseTaggingWithDelegate: self.keyboardVC)
 	}
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
+	}
     
 
 	// MARK: - NoiseTagDelegate

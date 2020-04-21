@@ -68,7 +68,7 @@ class SleepViewController: UIViewController, SubVC {
 
 		// Prepare homeButton:
 		self.homeButton.image = UIImage(named: "Icons_Home")
-		self.homeButton.frame = NavigatorTreeOfPages.frameBackButton
+		self.homeButton.frame = Layout.Navigator.NavigationBar.LeftButton.frame
 		self.homeButton.noiseTagging.identifier = "Home"
 		
 		// Prepare alarmButton:
@@ -93,6 +93,13 @@ class SleepViewController: UIViewController, SubVC {
 	
 	private func updateExplanation() {
 		self.labelExplanation.text = self.alarmModeIsOn ? L10n.SleepScreen.Explanation.ifAlarmOn : L10n.SleepScreen.Explanation.ifAlarmOff
+	}
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
 	}
 	
 	

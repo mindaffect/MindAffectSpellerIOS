@@ -50,6 +50,13 @@ class YesNoViewController: UIViewController, SubVC {
 		self.closeButton.noiseTagging.identifier = "Close Yes/No screen"
 		self.closeButton.noiseTagging.participatesInFlickering = false
     }
+	
+	/**
+	We prefer the home indicator to be hidden.
+	*/
+	override var prefersHomeIndicatorAutoHidden: Bool {
+		return true
+	}
 
 
 	// MARK: - NoiseTagDelegate
