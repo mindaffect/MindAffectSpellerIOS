@@ -1,4 +1,5 @@
 /* Copyright (c) 2016-2020 MindAffect.
+Author: Jop van Heesch
 
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -17,7 +18,7 @@ private let kIdentifierHomeButton = "Home"
 /**
 This view controller uses `NoiseTagKeyboardViewController` to show a brain-controllable keyboard. It enables two standard buttons on the keyboard – for typing special symbols such as "." and "," and for speaking out loud the typed text – and it adds one custom button to go back to the Home screen.
 */
-class SpellerViewController: UIViewController, SubVC, NoiseTaggingKeyboardDelegate {
+class SpellerViewController: UIViewController, SubVC, NoiseTagKeyboardDelegate {
 	
 	// MARK: SubVC protocol
 	

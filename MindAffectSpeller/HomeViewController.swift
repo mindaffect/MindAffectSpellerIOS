@@ -1,4 +1,5 @@
 /* Copyright (c) 2016-2020 MindAffect.
+Author: Jop van Heesch
 
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -262,8 +263,8 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 		let novaSettings = settingsViewController.settingsSpellerApp
 		
 		// Set some colors to match the current color scheme defined by NoiseTagging:
-		self.viewBottomBar.backgroundColor = noiseTaggingSettings.colorFor(title: NoiseTagSettingTitles.defaultBackgroundColorTopAndBottomBars)
-		self.viewDividingLine1.backgroundColor = noiseTaggingSettings.colorFor(title: NoiseTagSettingTitles.defaultColorItemsOnTopAndBottomBars).withAlphaComponent(0.5)
+		self.viewBottomBar.backgroundColor = noiseTaggingSettings.colorFor(settingTitle: NoiseTagSettingTitles.defaultBackgroundColorTopAndBottomBars)
+		self.viewDividingLine1.backgroundColor = noiseTaggingSettings.colorFor(settingTitle: NoiseTagSettingTitles.defaultColorItemsOnTopAndBottomBars).withAlphaComponent(0.5)
 		self.viewDividingLine2.backgroundColor = viewDividingLine1.backgroundColor
 		
 		// Update whether we show the default sentences view or the alternative one:
@@ -272,9 +273,9 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 		altViewSentences.isHidden = !showAlternativeSentencesView
 		
 		// Update UI for the default sentences view:
-		sentence1Button.title = novaSettings.textFor(title: NovaSettingTitles.homeScreenSentence1)
-		sentence2Button.title = novaSettings.textFor(title: NovaSettingTitles.homeScreenSentence2)
-		sentence3Button.title = novaSettings.textFor(title: NovaSettingTitles.homeScreenSentence3)
+		sentence1Button.title = novaSettings.textFor(settingTitle: NovaSettingTitles.homeScreenSentence1)
+		sentence2Button.title = novaSettings.textFor(settingTitle: NovaSettingTitles.homeScreenSentence2)
+		sentence3Button.title = novaSettings.textFor(settingTitle: NovaSettingTitles.homeScreenSentence3)
 		
 		// Update UI for the alternative sentences view:
 		let settingTitles = [
@@ -289,7 +290,7 @@ class HomeViewController: UIViewController, SuperVC, NoiseTagDelegate, SettingSu
 			NovaSettingTitles.homeScreenSentence9
 		]
 		for i in 0 ..< settingTitles.count {
-			(altViewSentences.viewWithTag(i + 1) as? NoiseTagButtonView)?.title = novaSettings.textFor(title: settingTitles[i])
+			(altViewSentences.viewWithTag(i + 1) as? NoiseTagButtonView)?.title = novaSettings.textFor(settingTitle: settingTitles[i])
 		}
 	}
     

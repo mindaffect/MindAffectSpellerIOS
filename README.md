@@ -6,6 +6,9 @@ At MindAffect we currently focus on our development kit, which makes it possible
 
 By the way, this Speller app is also available on the App Store! 
 
+Developing this app has been made possible by the generous support of the American, Belgian and Dutch ALS Associations, a.o. under Grants ATC20610 and 2017-57.
+
+
 
 # The NoiseTagging Framework
 
