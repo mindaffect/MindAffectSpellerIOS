@@ -27,6 +27,9 @@ class ViewController: UIViewController {
 		// Sound the alarm if we accidentaly disconnect from the Decoder:
 		NoiseTagging.settings.set(boolValue: true, for: NoiseTagSettingTitles.soundAlarmWhenDisconnecting)
 		
+		// In this app controls do not change within trials, so we can safely enable Metal for rendering, which should be more precise (see `useMetal` for a more elaborate explanation):
+		NoiseTagging.settings.set(boolValue: true, for: NoiseTagSettingTitles.useMetal)
+
 		// During development we might want to enable access to the Development screen. Otherwise this needs to be commented out: todo make dependent on debig/release:
 //		NoiseTagging.settings.set(value: true, for: NoiseTagSettingTitles.twoFingerDoubleTapOpensDeveloperScreen)
 	}

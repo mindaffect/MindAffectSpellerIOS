@@ -17,14 +17,14 @@
 		482D4CFB1DBF612800EC1378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482D4CFA1DBF612800EC1378 /* Assets.xcassets */; };
 		482D4CFE1DBF612800EC1378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482D4CFC1DBF612800EC1378 /* LaunchScreen.storyboard */; };
 		487260231FC720E300D44F49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487260211FC720E300D44F49 /* SettingsViewController.swift */; };
-		48754034244EE90F00031343 /* NoiseTagging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48754031244EE90900031343 /* NoiseTagging.framework */; };
-		48754035244EE90F00031343 /* NoiseTagging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48754031244EE90900031343 /* NoiseTagging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48A1C5F1242216E900605158 /* htmlInfo_english.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A1C5EF242216E900605158 /* htmlInfo_english.html */; };
 		48A1C5F2242216E900605158 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1C5F0242216E900605158 /* InfoViewController.swift */; };
 		48A6A8032424B19D00F8C7C2 /* htmlInfo_dutch.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */; };
 		48AFC45321181A650092D54A /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFC45121181A650092D54A /* SleepViewController.swift */; };
 		48AFC45421181A650092D54A /* SleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC45221181A650092D54A /* SleepViewController.xib */; };
 		48AFC47F211881200092D54A /* AlarmSound10s.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC47E211881200092D54A /* AlarmSound10s.wav */; };
+		48C6CE782498F1EA000A0023 /* NoiseTagging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C6CE752498F1E3000A0023 /* NoiseTagging.framework */; };
+		48C6CE792498F1EA000A0023 /* NoiseTagging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48C6CE752498F1E3000A0023 /* NoiseTagging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48D340D921CD253D0098DCC2 /* SetOfSettingsNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D340D821CD253D0098DCC2 /* SetOfSettingsNova.swift */; };
 		48DE2EF41DD47D08004AF5B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE2EF21DD47D08004AF5B5 /* HomeViewController.swift */; };
 		48DE2EF51DD47D08004AF5B5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DE2EF31DD47D08004AF5B5 /* HomeViewController.xib */; };
@@ -36,16 +36,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48754030244EE90900031343 /* PBXContainerItemProxy */ = {
+		48C6CE742498F1E3000A0023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4875402B244EE90900031343 /* NoiseTagging.xcodeproj */;
+			containerPortal = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 482845C12005203D00BC83F1;
 			remoteInfo = NoiseTagging;
 		};
-		48754032244EE90900031343 /* PBXContainerItemProxy */ = {
+		48C6CE762498F1E3000A0023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4875402B244EE90900031343 /* NoiseTagging.xcodeproj */;
+			containerPortal = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 482845CA2005203E00BC83F1;
 			remoteInfo = NoiseTaggingTests;
@@ -59,7 +59,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48754035244EE90F00031343 /* NoiseTagging.framework in Embed Frameworks */,
+				48C6CE792498F1EA000A0023 /* NoiseTagging.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,6 @@
 		482D4CFF1DBF612800EC1378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4867A1D82443A21F0011A288 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		487260211FC720E300D44F49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		4875402B244EE90900031343 /* NoiseTagging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoiseTagging.xcodeproj; path = "../../../EigenBedrijf/MindAffect/Projects Xcode/NoiseTagging/NoiseTagging.xcodeproj"; sourceTree = "<group>"; };
 		48A1C5EF242216E900605158 /* htmlInfo_english.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_english.html; sourceTree = "<group>"; };
 		48A1C5F0242216E900605158 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		48A6A8022424B19D00F8C7C2 /* htmlInfo_dutch.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlInfo_dutch.html; sourceTree = "<group>"; };
@@ -88,6 +87,7 @@
 		48AFC45221181A650092D54A /* SleepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepViewController.xib; sourceTree = "<group>"; };
 		48AFC47E211881200092D54A /* AlarmSound10s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AlarmSound10s.wav; sourceTree = "<group>"; };
 		48B40618223A869E00BBF043 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoiseTagging.xcodeproj; path = ../../../EigenBedrijf/MindAffect/ProjectsXcode/NoiseTagging/NoiseTagging.xcodeproj; sourceTree = "<group>"; };
 		48D340D821CD253D0098DCC2 /* SetOfSettingsNova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetOfSettingsNova.swift; sourceTree = "<group>"; };
 		48DE2EF21DD47D08004AF5B5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48DE2EF31DD47D08004AF5B5 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48754034244EE90F00031343 /* NoiseTagging.framework in Frameworks */,
+				48C6CE782498F1EA000A0023 /* NoiseTagging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 		482D4CE71DBF612800EC1378 = {
 			isa = PBXGroup;
 			children = (
-				4875402B244EE90900031343 /* NoiseTagging.xcodeproj */,
+				48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */,
 				48B40618223A869E00BBF043 /* .gitignore */,
 				4867A1D82443A21F0011A288 /* README.md */,
 				48F3DA0E2445B0B4006148F7 /* LICENSE.md */,
@@ -213,15 +213,6 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
-		4875402C244EE90900031343 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				48754031244EE90900031343 /* NoiseTagging.framework */,
-				48754033244EE90900031343 /* NoiseTaggingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		48A6A7FF2424B10A00F8C7C2 /* Info */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +238,15 @@
 				48AFC47E211881200092D54A /* AlarmSound10s.wav */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		48C6CE702498F1E3000A0023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C6CE752498F1E3000A0023 /* NoiseTagging.framework */,
+				48C6CE772498F1E3000A0023 /* NoiseTaggingTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		48DE2EF11DD47B56004AF5B5 /* Home */ = {
@@ -344,8 +344,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4875402C244EE90900031343 /* Products */;
-					ProjectRef = 4875402B244EE90900031343 /* NoiseTagging.xcodeproj */;
+					ProductGroup = 48C6CE702498F1E3000A0023 /* Products */;
+					ProjectRef = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -356,18 +356,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		48754031244EE90900031343 /* NoiseTagging.framework */ = {
+		48C6CE752498F1E3000A0023 /* NoiseTagging.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NoiseTagging.framework;
-			remoteRef = 48754030244EE90900031343 /* PBXContainerItemProxy */;
+			remoteRef = 48C6CE742498F1E3000A0023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		48754033244EE90900031343 /* NoiseTaggingTests.xctest */ = {
+		48C6CE772498F1E3000A0023 /* NoiseTaggingTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NoiseTaggingTests.xctest;
-			remoteRef = 48754032244EE90900031343 /* PBXContainerItemProxy */;
+			remoteRef = 48C6CE762498F1E3000A0023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
