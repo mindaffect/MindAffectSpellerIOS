@@ -1,0 +1,89 @@
+custom_categories:
+  - name: Guides
+    children:
+      - README
+      - Quick Start
+      - Main Programming Guide
+      - LICENSE
+  - name: Main Symbols
+    children:
+      - NoiseTagging
+      - NoiseTagController
+      - NoiseTagControl
+      - NoiseTagControlProperties
+      - NoiseTagDelegate
+  - name: Controls
+    children:
+      - NoiseTagControlAppearance
+      - NoiseTagButtonView
+      - NoiseTagShapeButtonView
+      - NoiseTagLabeledButtonView
+      - NoiseTagCheckBoxView
+      - NoiseTagRadioButton
+      - NoiseTagPopupButtonView
+      - NoiseTagPopupItem
+      - NoiseTaggingAlertAction
+      - ResultOfPresentingAlert
+  - name: Keyboard
+    children:
+      - NoiseTagKeyboardViewController
+      - NoiseTagKeyboardDelegate
+      - SetOfSettingsNoiseTagKeyboard
+      - NoiseTagKeyboardSettingTitles
+      - CustomizableButtonState
+      - StandardCustomizableKeyboardButton
+      - LettersLayoutType
+  - name: Navigation and Pages
+    children:
+      - NavigatorTreeOfPages
+      - Page
+      - PageDelegate
+      - PageAnimationType
+  - name: Sound and Text to Speech
+    children:
+      - Sound
+      - SoundsHelper
+      - Saying
+      - Sayer
+      - VoiceDefinition
+      - CustomVoiceDelegate
+      - SpeechRate
+  - name: Settings
+    children:
+      - SettingsTableViewController
+      - Setting
+      - SetOfSettings
+      - SetOfSettingsDelegate
+      - NoiseTagSetOfSettings
+      - NoiseTagSettingTitles
+      - BoolSetting
+      - IntSetting
+      - DoubleSetting
+      - TextSetting
+      - EnumSetting
+      - EnumAsSetting
+      - ItemOfArraySetting
+      - ItemOfArrayInMenu
+      - ColorSetting
+      - PickableColor
+      - ResultValidityCheck
+      - Setting_abstract
+      - SettingObserver
+      - SettingSubscriber
+  - name: Recordings
+    children:
+      - Recordingsdatabase
+      - Recordings
+      - Recording
+      - FileOfRecording
+
+      
+module: NoiseTagging
+
+copyright: MindAffect 2020
+
+min_acl: public
+
+documentation: "*.md"
+
+xcodebuild_arguments: [-UseModernBuildSystem=YES]

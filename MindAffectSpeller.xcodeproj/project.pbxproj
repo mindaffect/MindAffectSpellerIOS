@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4809812E221D798A00358BCD /* YesNoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809812C221D798A00358BCD /* YesNoViewController.swift */; };
 		4809812F221D798A00358BCD /* YesNoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4809812D221D798A00358BCD /* YesNoViewController.xib */; };
 		4820CE831FA34BA000E64829 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4820CE821FA34BA000E64829 /* Icons.xcassets */; };
+		4826A664249CA32E00332DD8 /* NoiseTagging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826A663249CA32E00332DD8 /* NoiseTagging.xcframework */; };
+		4826A665249CA32E00332DD8 /* NoiseTagging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4826A663249CA32E00332DD8 /* NoiseTagging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4829EE17213978E20048683B /* SpellerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829EE15213978E20048683B /* SpellerViewController.swift */; };
 		482D4CF41DBF612800EC1378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4CF31DBF612800EC1378 /* AppDelegate.swift */; };
 		482D4CF61DBF612800EC1378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4CF51DBF612800EC1378 /* ViewController.swift */; };
@@ -23,8 +25,6 @@
 		48AFC45321181A650092D54A /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFC45121181A650092D54A /* SleepViewController.swift */; };
 		48AFC45421181A650092D54A /* SleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC45221181A650092D54A /* SleepViewController.xib */; };
 		48AFC47F211881200092D54A /* AlarmSound10s.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48AFC47E211881200092D54A /* AlarmSound10s.wav */; };
-		48C6CE782498F1EA000A0023 /* NoiseTagging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C6CE752498F1E3000A0023 /* NoiseTagging.framework */; };
-		48C6CE792498F1EA000A0023 /* NoiseTagging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48C6CE752498F1E3000A0023 /* NoiseTagging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48D340D921CD253D0098DCC2 /* SetOfSettingsNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D340D821CD253D0098DCC2 /* SetOfSettingsNova.swift */; };
 		48DE2EF41DD47D08004AF5B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE2EF21DD47D08004AF5B5 /* HomeViewController.swift */; };
 		48DE2EF51DD47D08004AF5B5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DE2EF31DD47D08004AF5B5 /* HomeViewController.xib */; };
@@ -35,23 +35,6 @@
 		48E99BB022269F1F0089B549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E99BB222269F1F0089B549 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		48C6CE742498F1E3000A0023 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 482845C12005203D00BC83F1;
-			remoteInfo = NoiseTagging;
-		};
-		48C6CE762498F1E3000A0023 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 482845CA2005203E00BC83F1;
-			remoteInfo = NoiseTaggingTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		48314C0C2444A0D900A43E4C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48C6CE792498F1EA000A0023 /* NoiseTagging.framework in Embed Frameworks */,
+				4826A665249CA32E00332DD8 /* NoiseTagging.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +53,7 @@
 		4809812C221D798A00358BCD /* YesNoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoViewController.swift; sourceTree = "<group>"; };
 		4809812D221D798A00358BCD /* YesNoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YesNoViewController.xib; sourceTree = "<group>"; };
 		4820CE821FA34BA000E64829 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		4826A663249CA32E00332DD8 /* NoiseTagging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoiseTagging.xcframework; sourceTree = "<group>"; };
 		4829EE15213978E20048683B /* SpellerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellerViewController.swift; sourceTree = "<group>"; };
 		482D4CF01DBF612800EC1378 /* Speller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482D4CF31DBF612800EC1378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +71,6 @@
 		48AFC45221181A650092D54A /* SleepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepViewController.xib; sourceTree = "<group>"; };
 		48AFC47E211881200092D54A /* AlarmSound10s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AlarmSound10s.wav; sourceTree = "<group>"; };
 		48B40618223A869E00BBF043 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoiseTagging.xcodeproj; path = ../../../EigenBedrijf/MindAffect/ProjectsXcode/NoiseTagging/NoiseTagging.xcodeproj; sourceTree = "<group>"; };
 		48D340D821CD253D0098DCC2 /* SetOfSettingsNova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetOfSettingsNova.swift; sourceTree = "<group>"; };
 		48DE2EF21DD47D08004AF5B5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48DE2EF31DD47D08004AF5B5 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -107,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C6CE782498F1EA000A0023 /* NoiseTagging.framework in Frameworks */,
+				4826A664249CA32E00332DD8 /* NoiseTagging.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +100,7 @@
 		11C3A5619A26A5464A8553C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4826A663249CA32E00332DD8 /* NoiseTagging.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,7 +125,6 @@
 		482D4CE71DBF612800EC1378 = {
 			isa = PBXGroup;
 			children = (
-				48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */,
 				48B40618223A869E00BBF043 /* .gitignore */,
 				4867A1D82443A21F0011A288 /* README.md */,
 				48F3DA0E2445B0B4006148F7 /* LICENSE.md */,
@@ -240,15 +223,6 @@
 			name = Sounds;
 			sourceTree = "<group>";
 		};
-		48C6CE702498F1E3000A0023 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				48C6CE752498F1E3000A0023 /* NoiseTagging.framework */,
-				48C6CE772498F1E3000A0023 /* NoiseTaggingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		48DE2EF11DD47B56004AF5B5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,35 +316,12 @@
 			mainGroup = 482D4CE71DBF612800EC1378;
 			productRefGroup = 482D4CF11DBF612800EC1378 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 48C6CE702498F1E3000A0023 /* Products */;
-					ProjectRef = 48C6CE6F2498F1E3000A0023 /* NoiseTagging.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				482D4CEF1DBF612800EC1378 /* Speller */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		48C6CE752498F1E3000A0023 /* NoiseTagging.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = NoiseTagging.framework;
-			remoteRef = 48C6CE742498F1E3000A0023 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		48C6CE772498F1E3000A0023 /* NoiseTaggingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NoiseTaggingTests.xctest;
-			remoteRef = 48C6CE762498F1E3000A0023 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		482D4CEE1DBF612800EC1378 /* Resources */ = {
@@ -590,7 +541,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -615,7 +567,10 @@
 				);
 				INFOPLIST_FILE = MindAffectSpeller/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -654,7 +609,10 @@
 				);
 				INFOPLIST_FILE = MindAffectSpeller/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
